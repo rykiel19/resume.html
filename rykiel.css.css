@@ -1,0 +1,121 @@
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+  background-color: lightblue; 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; 
+  background-color: #ffffff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+header, section, footer {
+  text-align: center; 
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.horizontal p {
+  margin: 0 10px;
+}
+
+.description {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; 
+}
+
+.experience {
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.job {
+  margin-bottom: 30px; 
+  text-align: center; 
+}
+
+.job h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.job .company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.job .company img {
+  max-width: 80px;
+  margin-right: 20px;
+}
+
+.job .company p {
+  margin: 0;
+}
+
+.job ul {
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+.job ul li {
+  margin-bottom: 5px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.job .company-info p {
+  margin-bottom: 8px;
+  text-align: center; 
+}
+
+.education {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.school {
+  margin-bottom: 30px;
+  text-align: center; 
+}
+
+.references {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.references p {
+  margin: 5px 0;
+  text-align: center; 
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #f9f9f9; 
+  padding: 10px;
+  border-top: 1px solid #ccc; 
+}
